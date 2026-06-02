@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ServerUrl } from "../../App";
-import Step3Report from "../../components/step3Report";
+import Step3Report from "../../components/Step3Report";
 import Navbar from "../../components/Navbar";
 
 function InterviewReport() {
