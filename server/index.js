@@ -14,7 +14,7 @@ const app = express();
 
 // ✅ FIXED CORS
 app.use(cors({
-  origin: true,
+  origin: https://ai-interview-agent-9.onrender.com
   credentials: true
 }));
 
