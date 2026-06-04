@@ -9,7 +9,7 @@ import { signInWithPopup } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { setUserData } from "../../redux/userslice";
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "https://ai-interview-agent-9.onrender.com";
 
 function Auth({ isModel = false, onClose }) {
   const dispatch = useDispatch();
